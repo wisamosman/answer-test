@@ -3,6 +3,7 @@ from taggit.managers import TaggableManager
 
 
 
+
 class Answer(models.Model):
     
     name = models.CharField(max_length=100)
